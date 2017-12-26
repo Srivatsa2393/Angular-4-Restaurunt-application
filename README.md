@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # RecipeApp
+=======
+# RestrauntApp
+>>>>>>> 392631671c372045fd555be54d919d72aff00049
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 

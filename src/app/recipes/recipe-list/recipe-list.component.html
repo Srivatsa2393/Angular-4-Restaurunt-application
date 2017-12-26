@@ -6,6 +6,7 @@
 <hr>
 <div class="row">
     <div class="col-xs-12">
+<<<<<<< HEAD
         <a 
             href="#" 
             class="list-group-item clearfix" 
@@ -26,6 +27,17 @@
             </span>
         </a>
         <app-recipe-item></app-recipe-item>
+=======
+        <!-- <app-recipe-item 
+            *ngFor="let recipeEl of recipes" 
+            [recipe]="recipeEl" 
+            (recipeSelected)="onRecipeSelected(recipeEl)"
+        ></app-recipe-item> -->
+        <app-recipe-item 
+        *ngFor="let recipeEl of recipes" 
+        [recipe]="recipeEl"
+    ></app-recipe-item>
+>>>>>>> 392631671c372045fd555be54d919d72aff00049
     </div>
 </div>
 
