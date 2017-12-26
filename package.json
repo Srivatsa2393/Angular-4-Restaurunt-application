@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "recipe-app",
-=======
   "name": "restraunt-app",
->>>>>>> 392631671c372045fd555be54d919d72aff00049
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
