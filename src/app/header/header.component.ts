@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { DataStorageSevice } from '../shared/datastorage.service';
 import { Response } from '@angular/http';
+import { AuthService } from '../auth/auth.service';
 
 @Component({
     selector: 'app-header',
@@ -15,7 +16,7 @@ export class HeaderComponent {
         this.featureSelected.emit(feature);
     } */
 
-    constructor(private dataStorageService: DataStorageSevice) {
+    constructor(private dataStorageService: DataStorageSevice, private authService: AuthService) {
 
     }
 
